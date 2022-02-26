@@ -5,10 +5,8 @@
 // Section: 01
 // Room Number: 6
 
-// Member 1's Name: NG JING ER    Location: Pulau Pinang
-// Member 2's Name: CHIAM WOOI CHIN    Location: _Kedah__
-// Member 3's Name: NUR IZZAHTUL SYAFIQAH   Location: Kuantan
-// Member 4's Name: Nurul Ismat Tanni    Location: Bangladesh
+// Member 1's Name: NUR IZZAHTUL SYAFIQAH   Location: Kuantan
+// Member 2's Name: Nurul Ismat Tanni    Location: Bangladesh
 
 void main() {
   //TODO Task 1: Store data as a map
