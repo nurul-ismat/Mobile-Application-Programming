@@ -1,14 +1,6 @@
 // SCSJ3623 Mobile Application Programming
 // Tutorial 2.2
 
-// Date: _________
-// Section: _________
-// Room Number: _________
-
-// Member 1's Name: _____________    Location: ____________ (i.e. where are you currently located)
-// Member 2's Name: _____________    Location: ____________
-// Member 3's Name: _____________    Location: ____________
-// Member 4's Name: _____________    Location: ____________
 
 // Task 1a: Define class Person
 class Person{
