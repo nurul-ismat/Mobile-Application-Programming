@@ -1,0 +1,15 @@
+### Use this file to test out your REST call before implementing them in the code
+
+### Change the IP address below to your PC's IP address. Remain the port number 3000 unchanged
+@baseUrl = http://192.168.0.6:3000
+
+### Example request 1 : Get the counter
+GET {{baseUrl}}/counters/1
+
+### Example request 2 : Update the counter
+PUT {{baseUrl}}/counters/1
+Content-Type: application/json
+
+{
+    "value": 20
+}
