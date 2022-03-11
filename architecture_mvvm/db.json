@@ -1,0 +1,75 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Prepare proposal for the new project",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Replace light bulb",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Buy Flutter eBook",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "Subscribe to Fibre optic internet service",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "title": "Setup online meeting room",
+      "completed": false
+    },
+    {
+      "id": 10,
+      "title": "New task",
+      "completed": false,
+      "userId": 2
+    },
+    {
+      "id": 11,
+      "title": "New task",
+      "completed": false,
+      "userId": 2
+    },
+    {
+      "id": 12,
+      "title": "New task",
+      "completed": false,
+      "userId": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jessica Graham",
+      "email": "sincere@april.biz",
+      "password": "pwd123",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "shanna@melissa.tv",
+      "password": "helloworld",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/86.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Caroline Bauch",
+      "email": "nathan@yesenia.net",
+      "password": "samantha",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+    }
+  ]
+}
