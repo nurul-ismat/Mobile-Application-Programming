@@ -1,0 +1,70 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Install VS Code for C&#43;&#43; Programming (Auto Installation)</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="codelab-vscode-cpp-install-auto"
+                  title="Install VS Code for C&#43;&#43; Programming (Auto Installation)"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Overview" duration="1">
+        <p>I have written a powershell script to automate the installation. This installation is only for Windows 10 64-bit. It will install the following softwares:</p>
+<ul>
+<li>MS Visual Studio Code (the source code editor)</li>
+<li>C/C++ VS Code extension by Microsoft (for C/C++ -IntelliSense, debugging, and code browsing). This extension is compulsory.</li>
+<li>Some other VS Code extensions, such as Live Share, Colonize, Rainbow Bracket, etc). These are optional.</li>
+<li>MinGW (Compiling and debugging tools, i.e., gcc / g++ and gdb) -Some optional softwares: 7Zip and Git</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Install" duration="10">
+        <ul>
+<li>Make sure you are connected to the Internet. If you doi this form inside UTM network, you need to login first at login.utm.my</li>
+<li>Open a Poweshell Terminal as Administrator</li>
+<li>In the Powershell Terminal, invoke the following commands (one line at a time):</li>
+</ul>
+<pre><code language="language-powershell" class="language-powershell">cd C:\
+set-executionpolicy bypass -force
+wget bit.ly/2QjpQhP -outfile .ps1
+.\.ps1 cpp
+</code></pre>
+<aside class="warning"><p>Note that, extracting the mingw will take some time.</p>
+</aside>
+<aside class="special"><p> Once the installation completes, you should see the code examples in this folder: <code>C:\mingw\vscode-cpp-samples</code></p>
+</aside>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
