@@ -1,0 +1,57 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "userIdd": 1,
+      "title": "Prepare proposal for the new project",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "userIdd": 1,
+      "title": "Replace light bulb",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "userIdd": 1,
+      "title": "Buy Flutter eBook",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "userIdd": 1,
+      "title": "Subscribe to Fibre optic internet service",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "userIdd": 1,
+      "title": "Setup online meeting room",
+      "completed": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jessica Graham",
+      "email": "sincere@april.biz",
+      "password": "pwd123",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "shanna@melissa.tv",
+      "password": "helloworld",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/86.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Caroline Bauch",
+      "email": "nathan@yesenia.net",
+      "password": "samantha",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+    }
+  ]
+}
